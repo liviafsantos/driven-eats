@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    background-color: #eeeeee;
+  }
+  
+  img {
+    width: 144px;
+    height: 87px;
+    border: 2px solid white;
+    border-radius: 5%;
+    background-color: #FFFFFF;
+  }
+  .topo {
+    background-color: #cf2b2b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 100px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+  }
+  .titulo {
+    color: #ffffff;
+    padding-left: 21px;
+    padding-top: 8px;
+    font-weight: 400;
+    font-family:Righteous;
+    font-size: 44px;
+    line-height: 54.63px;
+    letter-spacing: -1.2%;
+  }
+  .subtitulo {
+    color: #ffffff;
+    padding-left: 21px;
+    padding-bottom: 15px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+  }
+  .primeiraLinha {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .tituloComida {
+    padding: 12px;
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.28px;
+    letter-spacing: 1.8%;
+  }
+  .FrangoYinYang, .Feijoada, .Lámen, .Moqueca{
+    margin: 2%;
+    padding: 1%;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .segundaLinha {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .tituloBebida {
+    padding: 12px;
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.28px;
+    letter-spacing: 1.8%;
+  }
+   .Suco, .Refrigerante, .Milkshake, .AguaDeCoco {
+    margin: 2%;
+    padding: 1%;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .terceiraLinha {
+    padding-left:5px ;
+    padding-right: 5px;
+    display: flex;
+    overflow-x: scroll;
+  }
+  .Mousse, .Panacota, .BoloDeChocolate, .TortaDeMaca{
+    margin: 2%;
+    padding: 1%;
+    border: 5px solid white;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .tituloSobremesa {
+    padding: 12px;
+    font-family: Righteous;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.28px;
+    letter-spacing: 1.8%;
+  }
+  .nomeSobremesa {
+    padding: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+  }
+  .nomePrato {
+    padding: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+  }
+  .nomeBebida {
+    padding: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+  }
+  .descricao {
+    color: #a6a6a6;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17.58px;
+  }
+  .preco {
+    padding: 3px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+  }
+  .rodape{
+    margin-top: 17px;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    bottom:0;
+  }
+  .botaoFim{
+    padding-right: 17%;
+    padding-left: 17%;
+    margin: 5%;
+    background-color: #CBCBCB;
+    color: #ffffff;
+    border-style: none;
+    width: 90%;
+    justify-content: center;
+    height: 61px;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;
+    text-align: center;
+  }
+  .resumo{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0.8;
+    z-index: 4;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .resumoPedido{
+    background-color: #50D074;
+    z-index: 5;
+    position: fixed;
+    margin:50% 4.2%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    border-radius: 20px;
+    width: 85%;
+    box-shadow: 2px 2px 10px rgba(0.5, 0.5, 0.5, 0.5);
+  }
+  .escondido{
+    display:none;
+  }
+  .tituloResumo, .total{
+    margin: 4% 0;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    letter-spacing: 1.8%;
+  }
+  .prato, .bebida, .sobremesa{
+    margin: 3% 0;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+    letter-spacing: 1.8%;
+  }
+  .escolhaPrato, .escolhaBebida, .escolhaSobremesa{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.78px;
+    letter-spacing: 1.8%;
+    align-items: center;
+    color:#FFFFFF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  .podePedir{
+    background-color: #FFFFFF;
+    color: #50D074;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    letter-spacing: 1.8%;
+    align-items: center;
+    border-radius: 20px;
+    padding: 4% 10%;
+}
+a{
+  text-decoration: none;
+}
+  .cancelar{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    letter-spacing: 1.8%;
+    align-items: center;
+    color: #FFFFFF;
+    border-style: none;
+    background-color: #50D074;
+    justify-content: center;
+    margin-top: 6%;
+  }
+  .verdeprato, .verdebebida, .verdesobremesa{
+    border: 5px solid #32B72F;
+  }
+  .verdeFim{
+    background-color: #32B72F;
+    font-weight: 700;
+  }
+  .corpo{
+    z-index: 1;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }

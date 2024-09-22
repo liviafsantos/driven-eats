@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resumo escondido"></div>
+    <div class="resumoPedido escondido">
+        <p class="tituloResumo"></p>
+        <p class="prato"></p>
+        <p class="bebida"></p>
+        <p class="sobremesa"></p> 
+        <p class="total"></p>
+        <a id="whatsappLink" class="podePedir" href="#"onclick="whatsapp()" class="podePedir">Tudo certo, pode pedir!</a>
+        <button class="cancelar">Cancelar</button>            
+    </div>
+    <div class="conteudo">
+        <div class="topo">
+            <h1 class="titulo">DrivenEats</h1>
+            <p class="subtitulo">Sua comida em 6 minutos</p>
+        </div>
+        <div class="corpo">
+            <h2 class="tituloComida">Primeiro, seu prato</h1>
+            <div class="primeiraLinha">
+                <div onclick="selecionarPrato(this)"class="FrangoYinYang">
+                    <img src="/imgs/primeiroPrato.jpeg">
+                    <p class="nomePrato">Frango Yin Yang</p>
+                    <p class="descricao">Um pouco de batata, um pouco de salada</p>
+                    <p class="preco">14.90</p>
+                </div>
+                <div onclick="selecionarPrato(this)"class="Lámen">
+                    <img src="/imgs/lamen.jpeg">
+                    <p class="nomePrato">Lámen</p>
+                    <p class="descricao">Sopinha com carne, ovo e legumes</p>
+                    <p class="preco">15.90</p>
+                </div>
+                <div onclick="selecionarPrato(this)"class="Moqueca">
+                    <img src="/imgs/moqueca.jpeg">
+                    <p class="nomePrato">Moqueca</p>
+                    <p class="descricao">Caldo com camarão e leite de coco</p>
+                    <p class="preco">20.90</p>
+                </div>
+                <div onclick="selecionarPrato(this)"class="Feijoada">
+                    <img src="/imgs/feijoada.jpeg">
+                    <p class="nomePrato">Feijoada</p>
+                    <p class="descricao">Com arroz, farofa, vinagrete e couve</p>
+                    <p class="preco">25.90</p>
+                </div>
+            </div>
+            <h2 class="tituloBebida">Agora, sua bebida</h2>
+            <div class="segundaLinha">
+                <div onclick="selecionarBebida(this)" class="Refrigerante">
+                    <img src="/imgs/refri.jpeg">
+                    <p class="nomeBebida">Refrigerantes</p>
+                    <p class="descricao">Coca, Guaraná ou Pepsi - 350ml</p>
+                    <p class="preco">4.90</p>
+                </div>
+                <div onclick="selecionarBebida(this)" class="Milkshake">
+                    <img src="/imgs/milkshake.jpeg">
+                    <p class="nomeBebida">Milkshake</p>
+                    <p class="descricao">Morango, chocolate ou baunilha - 300ml</p>
+                    <p class="preco">15.90</p>
+                </div>
+                <div onclick="selecionarBebida(this)" class="Suco">
+                    <img src="/imgs/sucos.jpeg">
+                    <p class="nomeBebida">Suco natural</p> 
+                    <p class="descricao">Morango, laranja ou melancia - 300ml</p>
+                    <p class="preco">10.90</p>
+                </div>
+                <div onclick="selecionarBebida(this)" class="AguaDeCoco">
+                    <img src="/imgs/aguadecoco.jpeg">
+                    <p class="nomeBebida">Água de côco</p>
+                    <p class="descricao">Água de côco natural - 350ml</p>
+                    <p class="preco">10.90</p>
+                </div>
+            </div>
+            <h2 class="tituloSobremesa">Por fim, sua sobremesa</h2>
+            <div class="terceiraLinha">
+                <div onclick="selecionarSobremesa(this)" class="Mousse">
+                    <img src="/imgs/mousse.jpeg">
+                    <p class="nomeSobremesa">Mousse</p>
+                    <p class="descricao">Mousse feito com fruta - 200g</p>
+                    <p class="preco">7.90</p>
+                </div>
+                <div onclick="selecionarSobremesa(this)" class="BoloDeChocolate">
+                    <img src="/imgs/boloChocolate.jpeg">
+                    <p class="nomeSobremesa">Bolo de chocolate</p>
+                    <p class="descricao">Acompanha pedaços de morango - 200g</p>
+                    <p class="preco">7.90</p>
+                </div>
+                <div onclick="selecionarSobremesa(this)" class="TortaDeMaca">
+                    <img src="/imgs/torta.jpeg">
+                    <p class="nomeSobremesa">Torta de maçã</p>
+                    <p class="descricao">Creme de nata com maçã - 200g</p>
+                    <p class="preco">7.90</p>
+                </div>
+                <div onclick="selecionarSobremesa(this)" class="Panacota">
+                    <img src="/imgs/panacota.jpeg">
+                    <p class="nomeSobremesa">Panacota</p>
+                    <p class="descricao">Panacota com geleia de frutas - 200g</p>
+                    <p class="preco">10.90</p>
+                </div>
+            </div>
+        </div>
+        <div class="rodape">
+            <button onclick="pedir(this)" class="botaoFim">Selecione os 3 itens para fechar o pedido</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
